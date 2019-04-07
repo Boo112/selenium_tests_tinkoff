@@ -16,14 +16,6 @@ public enum BrowsersFactory {
             return new ChromeDriver(options);
         }
     },
-    chrome_invisible {
-        public WebDriver create() {
-            updateProperty("chrome_invisible");
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--disable-notifications");
-            return new ChromeDriver(options);
-        }
-    },
     firefox {
         public WebDriver create() {
             updateProperty("firefox");

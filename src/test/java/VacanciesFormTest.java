@@ -7,7 +7,7 @@ public class VacanciesFormTest extends BaseRunner {
 
     @Test
     public void testFieldsEmpty() {
-        System.out.println("Стартуем тест проверка пустых полей формы...");
+        System.out.println("Тест пустые поля в форме ...");
         driver.get(baseUrl);
         driver.findElement(By.name("name")).click();
         driver.findElement(By.name("city")).click();
@@ -33,7 +33,7 @@ public class VacanciesFormTest extends BaseRunner {
 
     @Test
     public void testFieldsInvalidName1() {
-        System.out.println("Стартуем тест невалидных значений...1");
+        System.out.println("Тест невалидных значений...");
         driver.get(baseUrl);
         driver.findElement(By.name("name")).sendKeys(InvalidData.INVALID_FIO_ENG);
         driver.findElement(By.name("birthday")).sendKeys(InvalidData.INVALID_DATE_BIRTH);
@@ -53,7 +53,7 @@ public class VacanciesFormTest extends BaseRunner {
 
     @Test
     public void testFieldsInvalidName2() {
-        System.out.println("Стартуем тест невалидных значений ...2");
+        System.out.println("Тест невалидных значений ...");
         driver.get(baseUrl);
 
         driver.findElement(By.name("name")).sendKeys(InvalidData.INVALID_FIO_ONLY_NAME);
@@ -68,7 +68,7 @@ public class VacanciesFormTest extends BaseRunner {
 
     @Test
     public void testFieldsInvalidName3() {
-        System.out.println("Стартуем тест невалидных значений...3");
+        System.out.println("Тест невалидных значений...");
         driver.get(baseUrl);
 
         driver.findElement(By.name("name")).sendKeys(InvalidData.maxLimitName());

@@ -13,7 +13,6 @@ public class BaseRunner {
 
     @Before
     public void setUp() {
-
         if (tl.get() != null) {
             driver = tl.get();
         } else {
