@@ -16,6 +16,7 @@ public class VacanciesFormTest extends BaseRunner {
         driver.findElement(By.name("socialLink0")).click();
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='условиями передачи информации'])[1]/following::span[1]")).click();
 
+        
         assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Фамилия и имя'])[1]/following::div[2]")).getText());
         assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
