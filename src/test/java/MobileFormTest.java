@@ -4,6 +4,7 @@ import elements.Select;
 import elements.TextInput;
 import org.junit.Test;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 
@@ -15,21 +16,19 @@ public class MobileFormTest extends BaseRunner {
     @Test
     public void testPage() throws InterruptedException {
         driver.get("https://www.google.ru/");
-        // WebElement searchElement = driver.findElement(By.xpath("//input[@name='q']"));
-        // searchElement.sendKeys("мобайл тинькофф");
-        // searchElement.submit();
 
         TextInput inputString = new TextInput(driver, "//input[@name='q']");
         inputString.setText("мобайл тинькофф");
         inputString.submit();
 
         driver.findElement(By.partialLinkText("Тарифы Тинькофф Мобайла")).click();
-
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
-        Thread.sleep(1000); // по-другому не работает
+       // new WebDriverWait(driver, 4).until(
+        //        webDriver -> (driver.findElement(By.xpath("//p[contains(text(),'Тарифы Тинькофф Мобайла')]")).isDisplayed()));
         // new WebDriverWait(driver, 10).until(
         //         webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+        driver.switchTo().window(tabs.get(1));
+        Thread.sleep(1000); // по-другому не работает :(
         assertEquals("Тарифы Тинькофф Мобайла", driver.getTitle());
 
         driver.switchTo().window(tabs.get(0));
