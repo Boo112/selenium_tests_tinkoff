@@ -31,8 +31,8 @@ public class BaseRunner {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-          //  driver.quit();
-           // driver = null;
+            driver.quit();
+            driver = null;
         }));
     }
 
