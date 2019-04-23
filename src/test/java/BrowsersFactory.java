@@ -13,6 +13,7 @@ public enum BrowsersFactory {
             updateProperty("chrome");
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
+          //  options.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
             return new ChromeDriver(options);
         }
     },

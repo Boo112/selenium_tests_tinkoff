@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05725872-80d6-45b7-9ebc-772aa5fc22d2" name="Default Changelist" comment="" />
+    <list default="true" id="05725872-80d6-45b7-9ebc-772aa5fc22d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/selenium_tests_tinkoff-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BrowsersFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BrowsersFactory.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +24,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MobileFormTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-526">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/elements/Select.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/elements/CheckBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/elements/Button.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/elements/TextInput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BrowsersFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BaseRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +98,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>www.win2.cn/g9</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/test/java</dir>
     </dirStrings>
@@ -80,13 +120,18 @@
         <option value="$PROJECT_DIR$/src/test/java/TestUntitledTestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/TinkoffTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/IncorrectData.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ErrorMessages.java" />
         <option value="$PROJECT_DIR$/src/test/java/InvalidData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/VacanciesFormTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BrowsersFactory.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/VacanciesFormTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BrowsersFactory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/Select.java" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/Button.java" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/TextInput.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MobileFormTest.java" />
       </list>
     </option>
   </component>
@@ -106,7 +151,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -117,37 +162,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="selenium_tests_tinkoff-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests_tinkoff-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_tests_tinkoff-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests_tinkoff-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_tests_tinkoff-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests_tinkoff-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_tests_tinkoff-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests_tinkoff-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,12 +172,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554498613988" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -179,63 +197,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VacanciesFormTest">
-    <configuration name="VacanciesFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qatest" />
+  <component name="RunManager" selected="JUnit.MobileFormTest.activeButton (1)">
+    <configuration name="MobileFormTest.activeButton (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VacanciesFormTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VacanciesFormTest.testFieldsInvalidName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qatest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VacanciesFormTest" />
-      <option name="METHOD_NAME" value="testFieldsInvalidName" />
+      <option name="MAIN_CLASS_NAME" value="MobileFormTest" />
+      <option name="METHOD_NAME" value="activeButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VacanciesFormTest.testFieldsInvalidName1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qatest" />
+    <configuration name="MobileFormTest.activeButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_tests_tinkoff-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VacanciesFormTest" />
-      <option name="METHOD_NAME" value="testFieldsInvalidName1" />
+      <option name="MAIN_CLASS_NAME" value="MobileFormTest" />
+      <option name="METHOD_NAME" value="activeButton" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VacanciesFormTest.testFieldsInvalidName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qatest" />
+    <configuration name="MobileFormTest.activeButton1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_tests_tinkoff-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VacanciesFormTest" />
-      <option name="METHOD_NAME" value="testFieldsInvalidName2" />
+      <option name="MAIN_CLASS_NAME" value="MobileFormTest" />
+      <option name="METHOD_NAME" value="activeButton1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VacanciesFormTest.testFieldsInvalidName3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qatest" />
+    <configuration name="MobileFormTest.testChangeRegion (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_tests_tinkoff-master" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VacanciesFormTest" />
-      <option name="METHOD_NAME" value="testFieldsInvalidName3" />
+      <option name="MAIN_CLASS_NAME" value="MobileFormTest" />
+      <option name="METHOD_NAME" value="testChangeRegion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MobileFormTest.testPage (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium_tests_tinkoff-master" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MobileFormTest" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MobileFormTest.testPage (1)" />
+      <item itemvalue="JUnit.MobileFormTest.testChangeRegion (1)" />
+      <item itemvalue="JUnit.MobileFormTest.activeButton" />
+      <item itemvalue="JUnit.MobileFormTest.activeButton1" />
+      <item itemvalue="JUnit.MobileFormTest.activeButton (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VacanciesFormTest" />
-        <item itemvalue="JUnit.VacanciesFormTest.testFieldsInvalidName2" />
-        <item itemvalue="JUnit.VacanciesFormTest.testFieldsInvalidName3" />
-        <item itemvalue="JUnit.VacanciesFormTest.testFieldsInvalidName1" />
-        <item itemvalue="JUnit.VacanciesFormTest.testFieldsInvalidName" />
+        <item itemvalue="JUnit.MobileFormTest.activeButton (1)" />
+        <item itemvalue="JUnit.MobileFormTest.testPage (1)" />
+        <item itemvalue="JUnit.MobileFormTest.activeButton" />
+        <item itemvalue="JUnit.MobileFormTest.activeButton1" />
+        <item itemvalue="JUnit.MobileFormTest.testChangeRegion (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -264,49 +290,75 @@
       <workItem from="1554482578864" duration="132000" />
       <workItem from="1554486406082" duration="8805000" />
       <workItem from="1554659634372" duration="1827000" />
+      <workItem from="1555330111296" duration="192000" />
+      <workItem from="1555349199016" duration="3544000" />
+      <workItem from="1555388163325" duration="8145000" />
+      <workItem from="1555401714371" duration="9136000" />
+      <workItem from="1555433133844" duration="2859000" />
+      <workItem from="1555440325823" duration="1011000" />
+      <workItem from="1555441452908" duration="68000" />
+      <workItem from="1555474454984" duration="5677000" />
+      <workItem from="1555494842385" duration="123000" />
+      <workItem from="1555496911689" duration="106000" />
+      <workItem from="1555497094489" duration="8000" />
+      <workItem from="1555502455188" duration="1568000" />
+      <workItem from="1555523601631" duration="3258000" />
+      <workItem from="1555559652451" duration="21732000" />
+      <workItem from="1555609606444" duration="1704000" />
+      <workItem from="1555645657897" duration="4479000" />
+      <workItem from="1555673580281" duration="5158000" />
+      <workItem from="1555696500195" duration="2893000" />
+      <workItem from="1555756983405" duration="3198000" />
+      <workItem from="1555791846078" duration="640000" />
+      <workItem from="1555866990274" duration="1982000" />
+      <workItem from="1555911374334" duration="22000" />
+      <workItem from="1555952220668" duration="291000" />
+      <workItem from="1555991730699" duration="11323000" />
+      <workItem from="1556006589316" duration="6789000" />
+      <workItem from="1556013592417" duration="398000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VacanciesFormTest_testFieldsInvalidName3 - 2019.04.06 at 01h 42m 46s.xml">
-      <configuration name="VacanciesFormTest.testFieldsInvalidName3" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_activeButton - 2019.04.23 at 14h 18m 21s.xml">
+      <configuration name="MobileFormTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest_testFieldsInvalidName3 - 2019.04.06 at 01h 43m 01s.xml">
-      <configuration name="VacanciesFormTest.testFieldsInvalidName3" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_activeButton - 2019.04.23 at 14h 21m 19s.xml">
+      <configuration name="MobileFormTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest_testFieldsInvalidName3 - 2019.04.06 at 01h 44m 31s.xml">
-      <configuration name="VacanciesFormTest.testFieldsInvalidName3" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_activeButton - 2019.04.23 at 14h 22m 29s.xml">
+      <configuration name="MobileFormTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest_testFieldsInvalidName3 - 2019.04.06 at 01h 44m 53s.xml">
-      <configuration name="VacanciesFormTest.testFieldsInvalidName3" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_activeButton - 2019.04.23 at 14h 24m 34s.xml">
+      <configuration name="MobileFormTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest_testFieldsInvalidName3 - 2019.04.06 at 01h 49m 38s.xml">
-      <configuration name="VacanciesFormTest.testFieldsInvalidName3" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_activeButton - 2019.04.23 at 14h 30m 02s.xml">
+      <configuration name="MobileFormTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest_testFieldsInvalidName2 - 2019.04.06 at 01h 53m 17s.xml">
-      <configuration name="VacanciesFormTest.testFieldsInvalidName2" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_activeButton - 2019.04.23 at 14h 35m 34s.xml">
+      <configuration name="MobileFormTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest - 2019.04.06 at 01h 55m 23s.xml">
-      <configuration name="VacanciesFormTest" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_testPage_(1) - 2019.04.23 at 14h 47m 40s.xml">
+      <configuration name="MobileFormTest.testPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest - 2019.04.07 at 23h 00m 09s.xml">
-      <configuration name="VacanciesFormTest" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_testPage_(1) - 2019.04.23 at 14h 52m 05s.xml">
+      <configuration name="MobileFormTest.testPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest - 2019.04.07 at 23h 01m 16s.xml">
-      <configuration name="VacanciesFormTest" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_testPage_(1) - 2019.04.23 at 14h 52m 31s.xml">
+      <configuration name="MobileFormTest.testPage (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VacanciesFormTest - 2019.04.07 at 23h 20m 43s.xml">
-      <configuration name="VacanciesFormTest" configurationId="JUnit" />
+    <history-entry file="MobileFormTest_testPage_(1) - 2019.04.23 at 14h 52m 53s.xml">
+      <configuration name="MobileFormTest.testPage (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38451000" />
+    <option name="totallyTimeSpent" value="137652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,7 +367,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28085107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2609929" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,9 +384,10 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.10729614" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.09585121" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,13 +395,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BrowserFactory.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Chrome Download/katalon_recorder_tests-master/src/test/java/BrowserFactory.java" />
     <entry file="file://$PROJECT_DIR$/../Chrome Download/katalon_recorder_tests-master/src/test/java/BaseRunner.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/HttpCommandExecutor.class">
@@ -359,20 +405,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/readme.md" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ErrorMessages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InvalidData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -380,43 +412,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseRunner.java">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Runnable.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Function.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/base/Function.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BrowsersFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ErrorMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BrowsersFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/java/MobileFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/CheckBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/TextInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -460,7 +568,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_201</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -472,12 +580,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>qatest</last-edited>
+          <last-edited>selenium_tests_tinkoff-master</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,7 +1,13 @@
 import org.junit.After;
 import org.junit.Before;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class BaseRunner {
@@ -25,14 +31,14 @@ public class BaseRunner {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            driver.quit();
-            driver = null;
+          //  driver.quit();
+          //  driver = null;
         }));
     }
 
     @After
     public void tearDown() {
-        //driver.quit();
+       // driver.quit();
     }
 
     private WebDriver getDriver() {
@@ -44,4 +50,7 @@ public class BaseRunner {
         }
         return BrowsersFactory.valueOf(browserName).create();
     }
+
+
+
 }
