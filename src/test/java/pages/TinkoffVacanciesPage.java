@@ -41,7 +41,7 @@ public class TinkoffVacanciesPage extends Page {
         logger.info("Кликаем по пустым полям в форме вакансии <<заполните анкету>>...");
     }
 
-    public void inputIncorrectTextInFields() {
+    public void inputIncorrectTextInFields1() {
         TextInput name = new TextInput(driver, "//input[@name='name']");
         TextInput birthday = new TextInput(driver, "//input[@name='birthday']");
         TextInput email = new TextInput(driver, "//input[@name='email']");
@@ -53,6 +53,24 @@ public class TinkoffVacanciesPage extends Page {
         phone.setText(InvalidData.INVALID_TEL1);
         button.clickButton();
         logger.info("Вводим первый набор некорректных значений в форме вакансии <<заполните анкету>>...");
+    }
+
+    public void inputIncorrectTextInFields2() {
+        TextInput name = new TextInput(driver, "//input[@name='name']");
+        TextInput phone = new TextInput(driver, "//input[@name='phone']");
+        Button button=new Button(driver,"//span[text()='Отправить']");
+        name.setText(InvalidData.INVALID_FIO_ONLY_NAME);
+        phone.setText(InvalidData.INVALID_TEL2);
+        button.clickButton();
+        logger.info("Вводим второй набор некорректных значений в форме вакансии <<заполните анкету>>...");
+    }
+
+    public void inputIncorrectTextInFields3() {
+        TextInput name = new TextInput(driver, "//input[@name='name']");
+        Button button=new Button(driver,"//span[text()='Отправить']");
+        name.setText(InvalidData.maxLimitName());
+        button.clickButton();
+        logger.info("Вводим третий набор некорректных значений в форме вакансии <<заполните анкету>>...");
     }
 
     public void checkErrorMessageUnderFields(String nameField,String errorMessage){

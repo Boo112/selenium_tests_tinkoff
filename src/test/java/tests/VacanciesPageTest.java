@@ -22,10 +22,10 @@ public class VacanciesPageTest extends BaseRunner {
     }
 
     @Test
-    public void testFieldsInvalidName() {
+    public void testFieldsInvalidName1() {
         TinkoffVacanciesPage tinkoffVacanciesPage= app.tinkoffVacanciesPage;
         tinkoffVacanciesPage.openPage();
-        tinkoffVacanciesPage.inputIncorrectTextInFields();
+        tinkoffVacanciesPage.inputIncorrectTextInFields1();
 
         tinkoffVacanciesPage.checkErrorMessageUnderFields("name",
                 ErrorMessages.FIO_ICORRECT_LETTERS_ENG_ERROR);
@@ -35,6 +35,30 @@ public class VacanciesPageTest extends BaseRunner {
                 ErrorMessages.EMAIL_ERROR);
         tinkoffVacanciesPage.checkErrorMessageUnderFields("phone",
                 ErrorMessages.PHONE_TEL_ERROR_1);
+
+    }
+
+    @Test
+    public void testFieldsInvalidName2() {
+        TinkoffVacanciesPage tinkoffVacanciesPage= app.tinkoffVacanciesPage;
+        tinkoffVacanciesPage.openPage();
+        tinkoffVacanciesPage.inputIncorrectTextInFields2();
+
+        tinkoffVacanciesPage.checkErrorMessageUnderFields("name",
+                ErrorMessages.FIO_ICORRECT_LETTERS_SPACE_ERROR);
+        tinkoffVacanciesPage.checkErrorMessageUnderFields("phone",
+                ErrorMessages.PHONE_TEL_ERROR_2);
+
+    }
+
+    @Test
+    public void testFieldsInvalidName3() {
+        TinkoffVacanciesPage tinkoffVacanciesPage= app.tinkoffVacanciesPage;
+        tinkoffVacanciesPage.openPage();
+        tinkoffVacanciesPage.inputIncorrectTextInFields3();
+
+        tinkoffVacanciesPage.checkErrorMessageUnderFields("name",
+                ErrorMessages.FIO_ICORRECT_LETTERS_MAX_ERROR);
 
     }
 }

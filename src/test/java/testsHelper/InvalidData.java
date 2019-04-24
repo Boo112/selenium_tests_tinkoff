@@ -8,7 +8,7 @@ public class InvalidData {
     public static final String INVALID_TEL1 = "+7(111) 111-11-11";
     public static final String INVALID_TEL2 = "+7(111) 111";
 
-    static String maxLimitName() {
+    public static String maxLimitName() {
         StringBuilder letters = new StringBuilder();
         for (int i = 0; i < 150; i++) {
             letters = letters.append("a");

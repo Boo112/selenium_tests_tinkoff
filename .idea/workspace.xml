@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05725872-80d6-45b7-9ebc-772aa5fc22d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testsHelper/InvalidData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsHelper/InvalidData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InvalidData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/ErrorMessages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TinkoffVacanciesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/TinkoffVacanciesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/VacanciesPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/VacanciesPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="37" />
+            <state relative-caret-position="295">
+              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="145" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="381">
+              <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="271">
+              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testsHelper/InvalidData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="150">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -273,32 +268,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VacanciesPageTest.testFieldsInvalidName">
-    <configuration name="MobileFormTest.activeButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa-test" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MobileFormTest" />
-      <option name="METHOD_NAME" value="activeButton" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VacanciesPageTest.testFieldsInvalidName3">
     <configuration name="MobileFormTest.testChangeRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa-test" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.MobileFormTest" />
       <option name="METHOD_NAME" value="testChangeRegion" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MobileFormTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa-test" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MobileFormTest" />
-      <option name="METHOD_NAME" value="testPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -346,19 +321,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VacanciesPageTest.testFieldsInvalidName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.VacanciesPageTest" />
+      <option name="METHOD_NAME" value="testFieldsInvalidName2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VacanciesPageTest.testFieldsInvalidName3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.VacanciesPageTest" />
+      <option name="METHOD_NAME" value="testFieldsInvalidName3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.MobileFormTest.activeButton" />
-      <item itemvalue="JUnit.MobileFormTest.testPage" />
       <item itemvalue="JUnit.MobileFormTest.testChangeRegion" />
       <item itemvalue="JUnit.VacanciesPageTest.testFieldsEmpty" />
       <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName" />
+      <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName2" />
+      <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName3" />
+        <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName2" />
         <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName" />
         <item itemvalue="JUnit.VacanciesPageTest.testFieldsEmpty" />
         <item itemvalue="JUnit.MobileFormTest.testChangeRegion" />
-        <item itemvalue="JUnit.MobileFormTest.testPage" />
       </list>
     </recent_temporary>
   </component>
@@ -415,17 +423,11 @@
       <workItem from="1556013592417" duration="2424000" />
       <workItem from="1556031517690" duration="648000" />
       <workItem from="1556033672421" duration="8472000" />
-      <workItem from="1556086091866" duration="6082000" />
+      <workItem from="1556086091866" duration="6725000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VacanciesPageTest_testFieldsEmpty - 2019.04.24 at 11h 57m 03s.xml">
-      <configuration name="VacanciesPageTest.testFieldsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VacanciesPageTest_testFieldsEmpty - 2019.04.24 at 12h 09m 34s.xml">
-      <configuration name="VacanciesPageTest.testFieldsEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VacanciesPageTest_testFieldsEmpty - 2019.04.24 at 13h 07m 31s.xml">
       <configuration name="VacanciesPageTest.testFieldsEmpty" configurationId="JUnit" />
     </history-entry>
@@ -450,9 +452,15 @@
     <history-entry file="VacanciesPageTest_testFieldsInvalidName - 2019.04.24 at 13h 32m 18s.xml">
       <configuration name="VacanciesPageTest.testFieldsInvalidName" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VacanciesPageTest_testFieldsInvalidName - 2019.04.24 at 13h 33m 31s.xml">
+      <configuration name="VacanciesPageTest.testFieldsInvalidName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VacanciesPageTest_testFieldsInvalidName2 - 2019.04.24 at 13h 41m 19s.xml">
+      <configuration name="VacanciesPageTest.testFieldsInvalidName2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154880000" />
+    <option name="totallyTimeSpent" value="155523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -666,18 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="295">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="145" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -686,15 +684,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testsHelper/InvalidData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        <state relative-caret-position="381">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
