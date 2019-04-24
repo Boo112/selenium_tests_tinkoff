@@ -3,7 +3,6 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,22 +25,20 @@ public class Page {
         return true;
     }
 
-    public void goToUrl(String url){
+    public void goToUrl(String url) {
         driver.navigate().to(url);
-        logger.info("Открыта вкладка "+url);
+        logger.info("Открыта вкладка " + url);
     }
 
-    public void closeCurrentTab(){
+    public void closeCurrentTab() {
         driver.close();
         logger.info("Закрыта активная вкладка");
     }
 
-    public void switchToWindow(int tabNumber){
+    public void switchToWindow(int tabNumber) {
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(tabNumber));
-
-      //  wait.until(ExpectedConditions.titleContains(tabNumber));
-
+        //  wait.until(ExpectedConditions.titleContains(tabNumber));
        /* wait.until(d -> {
             boolean check = false;
             for (String title : driver.getWindowHandles()) {
@@ -51,15 +48,14 @@ public class Page {
             }
             return check;
         });*/
-
         logger.info("Переключились на новую вкладку");
     }
 
-    public String getTitlePage(){
+    public String getTitlePage() {
         return driver.getTitle();
     }
 
-    public String getUrlPage(){
+    public String getUrlPage() {
         return driver.getCurrentUrl();
     }
 
@@ -67,7 +63,7 @@ public class Page {
         return driver.findElement(By.xpath(String.format("//*[text()[contains(.,'%s')]]", textElement)));
     }
 
-    public void refreshPage(){
+    public void refreshPage() {
         driver.navigate().refresh();
         logger.info("Обновляем страницу...");
     }

@@ -1,7 +1,6 @@
 package tests;
 
 import application.BaseRunner;
-import elements.Button;
 import org.junit.Test;
 import pages.GoogleMainPage;
 import pages.GoogleResultPage;
@@ -13,32 +12,31 @@ public class MobileFormPageTest extends BaseRunner {
 
     @Test
     public void testPageTabs() throws InterruptedException {
-        GoogleMainPage googleMainPage=app.google;
+        GoogleMainPage googleMainPage = app.google;
         googleMainPage.openPage();
         googleMainPage.searchByRequest("мобайл тинькофф");
 
-        GoogleResultPage googleResult=app.googleResults;
+        GoogleResultPage googleResult = app.googleResults;
 
         googleResult.clickSearchResultsByLinkText("мобайл тинькофф тарифы");
 
         //Без этого слипа не получется, уже делал через wait, по-разному, никак не выходит Ж(
         Thread.sleep(1000);
 
-        TinkoffMobilePage tinkoffMobilePage=app.tinkoffMobilePage;
+        TinkoffMobilePage tinkoffMobilePage = app.tinkoffMobilePage;
         tinkoffMobilePage.switchToWindow(1);
-        assertEquals(tinkoffMobilePage.getTitlePage(),"Тарифы Тинькофф Мобайла");
+        assertEquals(tinkoffMobilePage.getTitlePage(), "Тарифы Тинькофф Мобайла");
 
         googleResult.switchToWindow(0);
         googleResult.closeCurrentTab();
 
         tinkoffMobilePage.switchToWindow(0);
-
-        assertEquals(tinkoffMobilePage.getUrlPage(),"https://www.tinkoff.ru/mobile-operator/tariffs/");
+        assertEquals(tinkoffMobilePage.getUrlPage(), "https://www.tinkoff.ru/mobile-operator/tariffs/");
     }
 
     @Test
     public void testChangeRegion() throws InterruptedException {
-        TinkoffMobilePage tinkoffMobilePage=app.tinkoffMobilePage;
+        TinkoffMobilePage tinkoffMobilePage = app.tinkoffMobilePage;
         tinkoffMobilePage.openPage();
         tinkoffMobilePage.regionSelect("Москва и Московская");
         Thread.sleep(1000);
@@ -61,18 +59,13 @@ public class MobileFormPageTest extends BaseRunner {
 
     @Test
     public void activeButton() throws InterruptedException {
-        TinkoffMobilePage tinkoffMobilePage=app.tinkoffMobilePage;
+        TinkoffMobilePage tinkoffMobilePage = app.tinkoffMobilePage;
         tinkoffMobilePage.openPage();
         tinkoffMobilePage.regionSelect("Москва и Московская");
         Thread.sleep(1000);
         tinkoffMobilePage.allOptionsOff();
         int price = tinkoffMobilePage.getTotalPrice();
-
-
         assertEquals(String.valueOf(price), "0");
-
         assertTrue(tinkoffMobilePage.isActiveButton());
     }
-
-
 }

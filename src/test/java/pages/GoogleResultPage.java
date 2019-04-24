@@ -11,7 +11,8 @@ public class GoogleResultPage extends Page {
         PageFactory.initElements(driver, this);
     }
 
-    public void clickSearchResultsByLinkText(String linkText){
+    public void clickSearchResultsByLinkText(String linkText) {
         driver.findElement(By.partialLinkText(linkText)).click();
+        logger.info("Кликаем по ссылке с текстом - "+linkText);
     }
 }

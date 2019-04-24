@@ -20,6 +20,7 @@ public class TinkoffVacanciesPage extends Page {
 
     public void openPage() {
         goToUrl(VACANSIES_PAGE_URL);
+        logger.info("Открываем url - "+VACANSIES_PAGE_URL);
     }
 
     public void clickOnEmptyFields() {
@@ -81,5 +82,4 @@ public class TinkoffVacanciesPage extends Page {
         return driver.findElement(By.xpath("//input[@name='" + nameField + "']/ancestor::div[@data-qa-file='FormFieldWrapper']" +
                 "/descendant::div[@data-qa-file='UIFormRowError']")).getText();
     }
-
 }

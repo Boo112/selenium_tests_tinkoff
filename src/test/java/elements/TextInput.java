@@ -14,7 +14,6 @@ public class TextInput {
 
     public void setText(String text) {
         driver.findElement(By.xpath(elementLocator)).sendKeys(text);
-
     }
 
     public void getText() {
@@ -28,5 +27,4 @@ public class TextInput {
     public void click() {
         driver.findElement(By.xpath(elementLocator)).click();
     }
-
 }

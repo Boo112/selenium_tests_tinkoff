@@ -18,6 +18,7 @@ public class TinkoffMobilePage extends Page {
 
     public void openPage() {
         goToUrl(GOOGLE_PAGE_URL);
+        logger.info("Открываем url - " + GOOGLE_PAGE_URL);
     }
 
     public void regionSelect(String regionName) {
@@ -77,8 +78,8 @@ public class TinkoffMobilePage extends Page {
         logger.info("Отключаем все пакеты и сервисы");
     }
 
-    public boolean isActiveButton(){
-        Button button = new Button(driver,"//div[contains(text(),'Заказать сим-карту')]");
+    public boolean isActiveButton() {
+        Button button = new Button(driver, "//div[contains(text(),'Заказать сим-карту')]");
         logger.info("Проверяем доступна ли кнопка Отправить");
         return button.isActiveButton();
     }
