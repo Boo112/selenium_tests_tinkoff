@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05725872-80d6-45b7-9ebc-772aa5fc22d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/TextInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GoogleMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GoogleMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GoogleResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GoogleResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/application/BaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/BaseRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +18,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/application/BrowsersFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/application/BaseRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/application/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="66" column="54" lean-forward="true" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,13 +115,11 @@
         <option value="$PROJECT_DIR$/src/test/java/BaseRunner.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/application/BaseRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/VacanciesFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MobileFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ErrorMessages.java" />
         <option value="$PROJECT_DIR$/src/test/java/testsHelper/InvalidData.java" />
-        <option value="$PROJECT_DIR$/src/test/java/application/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/Button.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/TextInput.java" />
@@ -93,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/GoogleMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/application/BaseRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/application/Application.java" />
       </list>
     </option>
   </component>
@@ -179,14 +218,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium_tests_tinkoff-feature-task3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium_tests_tinkoff-feature-task3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testsHelper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,20 +418,11 @@
       <workItem from="1556013592417" duration="2424000" />
       <workItem from="1556031517690" duration="648000" />
       <workItem from="1556033672421" duration="8472000" />
-      <workItem from="1556086091866" duration="19000000" />
+      <workItem from="1556086091866" duration="19558000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 51m 23s.xml">
-      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 53m 03s.xml">
-      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 54m 35s.xml">
-      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 55m 50s.xml">
       <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
@@ -422,15 +444,24 @@
     <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 17h 07m 06s.xml">
       <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 17h 17m 55s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 17h 18m 56s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 17h 19m 38s.xml">
+      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167798000" />
+    <option name="totallyTimeSpent" value="168356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -439,7 +470,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26524824" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26524824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,30 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/BaseRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/application/BrowsersFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/Button.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -613,16 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="66" column="54" lean-forward="true" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -684,6 +681,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/BrowsersFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/BaseRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="66" column="54" lean-forward="true" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,7 +2,6 @@ package application;
 
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +10,6 @@ import pages.GoogleResultPage;
 import pages.TinkoffMobilePage;
 import pages.TinkoffVacanciesPage;
 
-import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 public class Application {
@@ -30,7 +28,6 @@ public class Application {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-
         //pages
         tinkoffVacanciesPage = new TinkoffVacanciesPage(driver);
         google=new GoogleMainPage(driver);
@@ -39,13 +36,10 @@ public class Application {
 
         logger = LoggerFactory.getLogger(Application.class);
         logger.info("Браузер " + browserName + " стартует...");
-
-
     }
 
     public void quit() {
-      //  driver.quit();
-       // driver = null;
+        driver.quit();
+        driver = null;
     }
-
 }
