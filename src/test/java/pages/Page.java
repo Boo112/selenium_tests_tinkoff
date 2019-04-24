@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,19 +34,30 @@ public class Page {
         logger.info("Закрыта активная вкладка");
     }
 
-    public void switchToWindow(String windowName){
+    public void switchToWindow(int tabNumber){
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
+        driver.switchTo().window(tabs.get(tabNumber));
 
+      //  wait.until(ExpectedConditions.titleContains(tabNumber));
 
-        wait.until(d -> {
+       /* wait.until(d -> {
             boolean check = false;
             for (String title : driver.getWindowHandles()) {
                 driver.switchTo().window(title);
                 System.out.println(d.getTitle());
-                check = d.getTitle().equals(windowName);
+                check = d.getTitle().equals(tabNumber);
             }
             return check;
-        });
+        });*/
+
+        logger.info("Переключились на новую вкладку");
+    }
+
+    public String getTitlePage(){
+        return driver.getTitle();
+    }
+
+    public String getUrlPage(){
+        return driver.getCurrentUrl();
     }
 }

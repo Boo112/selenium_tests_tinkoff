@@ -33,6 +33,9 @@ public class Application {
 
         //pages
         tinkoffVacanciesPage = new TinkoffVacanciesPage(driver);
+        google=new GoogleMainPage(driver);
+        googleResults=new GoogleResultPage(driver);
+        tinkoffMobilePage=new TinkoffMobilePage(driver);
 
         logger = LoggerFactory.getLogger(Application.class);
         logger.info("Браузер " + browserName + " стартует...");
@@ -41,8 +44,8 @@ public class Application {
     }
 
     public void quit() {
-        driver.quit();
-        driver = null;
+      //  driver.quit();
+       // driver = null;
     }
 
 }
