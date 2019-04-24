@@ -1,12 +1,8 @@
 package tests;
 
-import application.Application;
 import application.BaseRunner;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import pages.TinkoffVacanciesPage;
-
-import static org.junit.Assert.assertEquals;
 
 public class VacanciesPageTest extends BaseRunner {
 
@@ -15,7 +11,12 @@ public class VacanciesPageTest extends BaseRunner {
         TinkoffVacanciesPage tinkoffVacanciesPage= app.tinkoffVacanciesPage;
         tinkoffVacanciesPage.openPage();
         tinkoffVacanciesPage.clickOnEmptyFields();
-        tinkoffVacanciesPage.checkErrorUnderEmptyFields("");
 
+        tinkoffVacanciesPage.checkErrorMessageUnderEmptyFields("name");
+        tinkoffVacanciesPage.checkErrorMessageUnderEmptyFields("city");
+        tinkoffVacanciesPage.checkErrorMessageUnderEmptyFields("birthday");
+        tinkoffVacanciesPage.checkErrorMessageUnderEmptyFields("email");
+        tinkoffVacanciesPage.checkErrorMessageUnderEmptyFields("phone");
+        tinkoffVacanciesPage.checkErrorMessageUnderEmptyFields("socialLink0");
     }
 }

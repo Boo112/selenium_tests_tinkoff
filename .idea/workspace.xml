@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05725872-80d6-45b7-9ebc-772aa5fc22d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/BaseRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BrowsersFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/application/BrowsersFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ErrorMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MobileFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MobileFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VacanciesFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VacanciesFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/elements/TextInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/TextInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,36 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="145" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/elements/TextInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="194">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/elements/Select.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="140">
+              <caret line="29" column="76" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,6 +61,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -146,9 +121,10 @@
         <option value="$PROJECT_DIR$/src/test/java/MobileFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Page.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/TextInput.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/Button.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" />
       </list>
     </option>
   </component>
@@ -319,7 +295,7 @@
       <module name="qa-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value="testsHelper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,17 +374,11 @@
       <workItem from="1556013592417" duration="2424000" />
       <workItem from="1556031517690" duration="648000" />
       <workItem from="1556033672421" duration="8472000" />
-      <workItem from="1556086091866" duration="1983000" />
+      <workItem from="1556086091866" duration="4528000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MobileFormTest_activeButton_(1) - 2019.04.23 at 15h 32m 19s.xml">
-      <configuration name="MobileFormTest.activeButton (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MobileFormTest_activeButton_(1) - 2019.04.23 at 15h 33m 00s.xml">
-      <configuration name="MobileFormTest.activeButton (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MobileFormTest_activeButton_(1) - 2019.04.23 at 15h 34m 56s.xml">
       <configuration name="MobileFormTest.activeButton (1)" configurationId="JUnit" />
     </history-entry>
@@ -433,15 +403,21 @@
     <history-entry file="VacanciesPageTest_testFieldsEmpty - 2019.04.24 at 00h 04m 46s.xml">
       <configuration name="VacanciesPageTest.testFieldsEmpty" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VacanciesPageTest_testFieldsEmpty - 2019.04.24 at 11h 57m 03s.xml">
+      <configuration name="VacanciesPageTest.testFieldsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VacanciesPageTest_testFieldsEmpty - 2019.04.24 at 12h 09m 34s.xml">
+      <configuration name="VacanciesPageTest.testFieldsEmpty" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150781000" />
+    <option name="totallyTimeSpent" value="153326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -450,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26524824" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26524824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -579,53 +555,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="145" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/Button.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/elements/TextInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -637,13 +572,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -667,10 +595,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/TextInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="140">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

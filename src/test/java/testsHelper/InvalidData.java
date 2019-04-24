@@ -1,3 +1,5 @@
+package testsHelper;
+
 class InvalidData {
     static final String INVALID_FIO_ENG = "klklrewrew";
     static final String INVALID_FIO_ONLY_NAME = "авыавы";
