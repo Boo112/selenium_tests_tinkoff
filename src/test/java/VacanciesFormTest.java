@@ -1,3 +1,4 @@
+import application.BaseRunner;
 import org.junit.Test;
 import org.openqa.selenium.*;
 
@@ -5,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class VacanciesFormTest extends BaseRunner {
 
-    @Test
+ /*   @Test
     public void testFieldsEmpty() {
         System.out.println("Тест пустые поля в форме ...");
         driver.get(baseUrl);
@@ -16,17 +17,17 @@ public class VacanciesFormTest extends BaseRunner {
         driver.findElement(By.name("socialLink0")).click();
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='условиями передачи информации'])[1]/following::span[1]")).click();
 
-        assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Фамилия и имя'])[1]/following::div[2]")).getText());
-        assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Дата рождения'])[1]/following::div[3]")).getText());
-        assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Город проживания'])[1]/following::div[3]")).getText());
-        assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Электронная почта'])[1]/following::div[2]")).getText());
-        assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Мобильный телефон'])[1]/following::div[2]")).getText());
-        assertEquals(ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIELD_IS_EMPTY_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='загрузите резюме/портфолио'])[1]/following::div[1]")).getText());
 
     }
@@ -41,13 +42,13 @@ public class VacanciesFormTest extends BaseRunner {
         driver.findElement(By.name("phone")).sendKeys(InvalidData.INVALID_TEL1);
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='условиями передачи информации'])[1]/following::span[1]")).click();
 
-        assertEquals(ErrorMessages.FIO_ICORRECT_LETTERS_ENG_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIO_ICORRECT_LETTERS_ENG_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Фамилия и имя'])[1]/following::div[2]")).getText());
-        assertEquals(ErrorMessages.DATE_BIRTH_ERROR, driver
+        assertEquals(tests.ErrorMessages.DATE_BIRTH_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Дата рождения'])[1]/following::div[3]")).getText());
-        assertEquals(ErrorMessages.EMAIL_ERROR, driver
+        assertEquals(tests.ErrorMessages.EMAIL_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Электронная почта'])[1]/following::div[2]")).getText());
-        assertEquals(ErrorMessages.PHONE_TEL_ERROR_1, driver
+        assertEquals(tests.ErrorMessages.PHONE_TEL_ERROR_1, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Мобильный телефон'])[1]/following::div[2]")).getText());
     }
 
@@ -60,9 +61,9 @@ public class VacanciesFormTest extends BaseRunner {
         driver.findElement(By.name("phone")).sendKeys(InvalidData.INVALID_TEL2);
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='условиями передачи информации'])[1]/following::span[1]")).click();
 
-        assertEquals(ErrorMessages.FIO_ICORRECT_LETTERS_SPACE_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIO_ICORRECT_LETTERS_SPACE_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Фамилия и имя'])[1]/following::div[2]")).getText());
-        assertEquals(ErrorMessages.PHONE_TEL_ERROR_2, driver
+        assertEquals(tests.ErrorMessages.PHONE_TEL_ERROR_2, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Мобильный телефон'])[1]/following::div[2]")).getText());
     }
 
@@ -74,7 +75,7 @@ public class VacanciesFormTest extends BaseRunner {
         driver.findElement(By.name("name")).sendKeys(InvalidData.maxLimitName());
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='условиями передачи информации'])[1]/following::span[1]")).click();
 
-        assertEquals(ErrorMessages.FIO_ICORRECT_LETTERS_MAX_ERROR, driver
+        assertEquals(tests.ErrorMessages.FIO_ICORRECT_LETTERS_MAX_ERROR, driver
                 .findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Фамилия и имя'])[1]/following::div[2]")).getText());
-    }
+    }*/
 }

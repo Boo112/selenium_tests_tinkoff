@@ -25,4 +25,8 @@ public class TextInput {
         driver.findElement(By.xpath(elementLocator)).submit();
     }
 
+    public void click() {
+        driver.findElement(By.xpath(elementLocator)).click();
+    }
+
 }

@@ -1,3 +1,5 @@
+package pages;
+
 class ErrorMessages {
     static final String FIELD_IS_EMPTY_ERROR = "Поле обязательное";
     static final String FIO_ICORRECT_LETTERS_ENG_ERROR = "Допустимо использовать только буквы русского алфавита и дефис";

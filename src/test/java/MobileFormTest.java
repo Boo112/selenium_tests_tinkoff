@@ -1,10 +1,10 @@
+import application.BaseRunner;
 import elements.Button;
 import elements.CheckBox;
 import elements.Select;
 import elements.TextInput;
 import org.junit.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 
@@ -13,7 +13,7 @@ import static org.junit.Assert.assertNotEquals;
 
 public class MobileFormTest extends BaseRunner {
 
-    @Test
+ /*   @Test
     public void testPage() throws InterruptedException {
         driver.get("https://www.google.ru/");
 
@@ -137,5 +137,5 @@ public class MobileFormTest extends BaseRunner {
         CheckBox social = new CheckBox(driver, "2053");
         social.checkboxActivate();
 
-    }
+    }*/
 }
