@@ -7,6 +7,7 @@ import pages.GoogleResultPage;
 import pages.TinkoffMobilePage;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class MobileFormPageTest extends BaseRunner {
 
@@ -33,6 +34,28 @@ public class MobileFormPageTest extends BaseRunner {
         tinkoffMobilePage.switchToWindow(0);
 
         assertEquals(tinkoffMobilePage.getUrlPage(),"https://www.tinkoff.ru/mobile-operator/tariffs/");
+    }
 
+    @Test
+    public void testChangeRegion() throws InterruptedException {
+        TinkoffMobilePage tinkoffMobilePage=app.tinkoffMobilePage;
+        tinkoffMobilePage.openPage();
+        tinkoffMobilePage.regionSelect("Москва и Московская");
+        Thread.sleep(1000);
+        assertEquals("Москва и Московская область", tinkoffMobilePage.getRegionNameOnThePage());
+        tinkoffMobilePage.refreshPage();
+        assertEquals("Москва и Московская область", tinkoffMobilePage.getRegionNameOnThePage());
+
+        int totalPriceMoscow = tinkoffMobilePage.getTotalPrice();
+        tinkoffMobilePage.regionSelect("Краснодарский кр.");
+        int totalPriceKrasnodar = tinkoffMobilePage.getTotalPrice();
+        assertNotEquals(totalPriceMoscow, totalPriceKrasnodar);
+
+        tinkoffMobilePage.allOptionsOn();
+        int fullPriceKrasnodar = tinkoffMobilePage.getTotalPrice();
+        tinkoffMobilePage.regionSelect("Москва и Московская");
+        tinkoffMobilePage.allOptionsOn();
+        int fullPriceMoscow = tinkoffMobilePage.getTotalPrice();
+        assertEquals(fullPriceMoscow, fullPriceKrasnodar);
     }
 }

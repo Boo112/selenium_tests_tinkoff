@@ -22,7 +22,7 @@ public class CheckBox {
     }
 
     boolean getStatusCheckbox() {
-        System.out.println(driver.findElement(By.xpath(elementLocator)).isSelected()+" "+elementLocator);
+        //System.out.println(driver.findElement(By.xpath(elementLocator)).isSelected()+" "+elementLocator);
         return driver.findElement(By.xpath(elementLocator + ANCESTOR)).isSelected();
     }
 

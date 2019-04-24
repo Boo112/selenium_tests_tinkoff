@@ -1,6 +1,8 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -59,5 +61,14 @@ public class Page {
 
     public String getUrlPage(){
         return driver.getCurrentUrl();
+    }
+
+    public WebElement getElementByTextElement(String textElement) {
+        return driver.findElement(By.xpath(String.format("//*[text()[contains(.,'%s')]]", textElement)));
+    }
+
+    public void refreshPage(){
+        driver.navigate().refresh();
+        logger.info("Обновляем страницу...");
     }
 }
