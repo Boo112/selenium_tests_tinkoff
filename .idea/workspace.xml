@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05725872-80d6-45b7-9ebc-772aa5fc22d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/elements/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/elements/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/elements/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TinkoffMobilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/TinkoffMobilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MobileFormPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/MobileFormPageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MobileFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="105" selection-start-line="105" selection-end-line="118" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="906">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,22 +85,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/elements/Button.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="64" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="214">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,22 +125,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/elements/CheckBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/GoogleResultPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1118#1119#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,19 +197,19 @@
         <option value="$PROJECT_DIR$/src/test/java/VacanciesFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MobileFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/TextInput.java" />
-        <option value="$PROJECT_DIR$/src/test/java/elements/Button.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ErrorMessages.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ErrorMessages.java" />
         <option value="$PROJECT_DIR$/src/test/java/testsHelper/InvalidData.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TinkoffVacanciesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/GoogleMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/application/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/GoogleResultPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/elements/Button.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/elements/CheckBox.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java" />
       </list>
     </option>
   </component>
@@ -334,7 +343,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MobileFormPageTest.testChangeRegion">
+  <component name="RunManager" selected="JUnit.MobileFormPageTest.activeButton">
+    <configuration name="MobileFormPageTest.activeButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MobileFormPageTest" />
+      <option name="METHOD_NAME" value="activeButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MobileFormPageTest.testChangeRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa-test" />
       <extension name="coverage">
@@ -377,22 +402,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VacanciesPageTest.testFieldsInvalidName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.VacanciesPageTest" />
-      <option name="METHOD_NAME" value="testFieldsInvalidName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VacanciesPageTest.testFieldsInvalidName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa-test" />
       <extension name="coverage">
@@ -426,19 +435,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName" />
       <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName2" />
       <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName3" />
       <item itemvalue="JUnit.MobileFormPageTest.testPageTabs" />
       <item itemvalue="JUnit.MobileFormPageTest.testChangeRegion" />
+      <item itemvalue="JUnit.MobileFormPageTest.activeButton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MobileFormPageTest.activeButton" />
         <item itemvalue="JUnit.MobileFormPageTest.testChangeRegion" />
         <item itemvalue="JUnit.MobileFormPageTest.testPageTabs" />
         <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName3" />
         <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName2" />
-        <item itemvalue="JUnit.VacanciesPageTest.testFieldsInvalidName" />
       </list>
     </recent_temporary>
   </component>
@@ -495,44 +504,44 @@
       <workItem from="1556013592417" duration="2424000" />
       <workItem from="1556031517690" duration="648000" />
       <workItem from="1556033672421" duration="8472000" />
-      <workItem from="1556086091866" duration="14668000" />
+      <workItem from="1556086091866" duration="18157000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MobileFormPageTest_testPageTabs - 2019.04.24 at 15h 04m 08s.xml">
-      <configuration name="MobileFormPageTest.testPageTabs" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 37m 34s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 36m 29s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 41m 10s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 39m 12s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 45m 57s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 40m 49s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 46m 27s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 42m 17s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 51m 23s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 45m 25s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 53m 03s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 46m 09s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 54m 35s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 48m 09s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 55m 50s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 52m 21s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 56m 34s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MobileFormPageTest_testChangeRegion - 2019.04.24 at 15h 53m 01s.xml">
-      <configuration name="MobileFormPageTest.testChangeRegion" configurationId="JUnit" />
+    <history-entry file="MobileFormPageTest_activeButton - 2019.04.24 at 16h 57m 30s.xml">
+      <configuration name="MobileFormPageTest.activeButton" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163466000" />
+    <option name="totallyTimeSpent" value="166955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -628,16 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/elements/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/TextInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -677,16 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -744,26 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="145" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MobileFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="105" selection-start-line="105" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/Select.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -774,10 +743,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/VacanciesFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VacanciesPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MobileFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/elements/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/elements/CheckBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -786,18 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/TinkoffMobilePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/MobileFormPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="214">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

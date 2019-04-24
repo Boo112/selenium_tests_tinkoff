@@ -9,7 +9,6 @@ public class Button {
 
     public Button(WebDriver driver,String elementLocator) {
         this.driver = driver;
-       // this.elementLocator = "//div[contains(text(),'Заказать сим-карту')]";
         this.elementLocator=elementLocator;
     }
 

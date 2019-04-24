@@ -1,5 +1,6 @@
 package pages;
 
+import elements.Button;
 import elements.CheckBox;
 import elements.Select;
 import org.openqa.selenium.By;
@@ -47,10 +48,38 @@ public class TinkoffMobilePage extends Page {
         callsOptions.selectOption("Безлимитные минуты");
 
         CheckBox unLimitSMS = new CheckBox(driver, "2048");
-        unLimitSMS.checkboxActivate();
+        unLimitSMS.checkboxActivate(true);
         CheckBox modem = new CheckBox(driver, "2058");
-        modem.checkboxActivate();
+        modem.checkboxActivate(true);
 
         logger.info("Включаем все пакеты и сервисы");
+    }
+
+    public void allOptionsOff() {
+
+        Select internetOptions = new Select(driver, "internet");
+        internetOptions.selectOption("0 ГБ");
+
+        Select callsOptions = new Select(driver, "calls");
+        callsOptions.selectOption("0 минут");
+
+        CheckBox unLimitSMS = new CheckBox(driver, "2048");
+        unLimitSMS.checkboxActivate(false);
+        CheckBox messengers = new CheckBox(driver, "2050");
+        messengers.checkboxActivate(false);
+        CheckBox music = new CheckBox(driver, "2046");
+        music.checkboxActivate(false);
+        CheckBox video = new CheckBox(driver, "2047");
+        video.checkboxActivate(false);
+        CheckBox social = new CheckBox(driver, "2053");
+        social.checkboxActivate(false);
+
+        logger.info("Отключаем все пакеты и сервисы");
+    }
+
+    public boolean isActiveButton(){
+        Button button = new Button(driver,"//div[contains(text(),'Заказать сим-карту')]");
+        logger.info("Проверяем доступна ли кнопка Отправить");
+        return button.isActiveButton();
     }
 }

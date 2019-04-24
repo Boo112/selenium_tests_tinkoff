@@ -15,15 +15,15 @@ public class CheckBox {
         this.elementLocator = "//input[@id='" + nameCheckBox + "']";
     }
 
-    public void checkboxActivate() {
-        if (getStatusCheckbox() == false) {
+    public void checkboxActivate(boolean setCheckBoxStatus) {
+        if (getStatusCheckbox() != setCheckBoxStatus) {
+           // System.out.println("check-"+elementLocator + ANCESTOR);
             driver.findElement(By.xpath(elementLocator + ANCESTOR)).click();
         }
     }
 
     boolean getStatusCheckbox() {
-        //System.out.println(driver.findElement(By.xpath(elementLocator)).isSelected()+" "+elementLocator);
-        return driver.findElement(By.xpath(elementLocator + ANCESTOR)).isSelected();
+        return driver.findElement(By.xpath(elementLocator)).isSelected();
     }
 
     public String getCheckBoxText() {
